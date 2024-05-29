@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="box">
+        <h1>Temperature converter</h1>
+        <div class="box-min">
+          <div class="cel">
+            <label>Celsius</label>
+            <input type="number"  id="cel" value="0" oninput="cels()">
+          </div>
+          <div class="cel">
+            <label>Fahrenheit</label>
+            <input type="number"  id="far" value="32" oninput="fars()" />
+          </div>
+          <div class="cel">
+            <label>Kelvin</label>
+            <input type="number" value="273.15" id="kel" oninput="kelv()"/>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./javascript.js"></script>
+  </body>
+</html>
