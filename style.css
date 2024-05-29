@@ -36,6 +36,7 @@ input {
   padding: 10px;
   color: black;
   font-size: 25px;
+  background-color: aliceblue;
 }
 button {
   display: block;
